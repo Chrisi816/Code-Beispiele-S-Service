@@ -14,3 +14,11 @@ exports["S-HUD"]:MakeHelpNotify("E", "Hey, that's the best Notify Script")
 
 -- Progress Bar
 exports["S-HUD"]:MakeProgressbar("Hey, that's the best Notify Script", 5000)
+
+-- Open a Text UI
+
+exports["S-HUD"]:ShowTextUI("E", "Hey, this is a example Text UI Notify")
+
+-- Close a Text UI Instance
+
+exports["S-HUD"]:HideTextUI()
