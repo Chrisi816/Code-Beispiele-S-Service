@@ -1,19 +1,19 @@
 -- Client
+-- type: "info"; "success"; "error"; "ooc"
+-- design: 1 = Normal; 2 = Circle; 3 = Modern
 
--- Normal info Notify
--- Design: 1 = modern; 2 = round; 3 = classic; Leftright: 1 = left; 2 = right;
--- 1 = "info", 2 = "success", 3 = "error", 4 = "ooc"
+-- Make an info notify for players.
 
-exports["S-Notify"]:MakeInfoNotify(1, "info", 1, "Hey, that's the best Notify Script", "S-Service", 5)
+exports["S-Notify"]:MakeInfoNotify("Hey, that's the best Notify Script", "S-Service", "info", 5, nil, 1, 1)
 
--- Normal Announce Notify
+-- Make an announcement for a player
 
-exports["S-Notify"]:MakeAnnounceNotify(1, "server", 1, "Hey, that's the best Notify Script", "S-Service", 5)
+exports["S-Notify"]:MakeAnnounceNotify("Hey, that's the best Notify Script", "server", "S-Service", 5, 1, 1)
 
--- Team Notify
+-- Make a team notify for a player
 
-exports["S-Notify"]:MakeTeamNotify(1, 1, "Hey, that's the best Notify Script", 5, "Chrisi")
+exports["S-Notify"]:MakeTeamNotify("Hey, that's the best Notify Script", 5, "Chrisi", 1, 1)
 
--- Key help Notify
+-- Make an interaction notification for a player
 
-exports["S-Notify"]:MakeKeyHelpNotify(1, "E", "Hey, that's the best Notify Script")
+exports["S-Notify"]:MakeKeyHelpNotify("E", "Hey, that's the best Notify Script", 1)
