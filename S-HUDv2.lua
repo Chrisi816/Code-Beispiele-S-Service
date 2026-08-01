@@ -143,7 +143,6 @@ TriggerEvent("SService:SHUDV2:DisplayAnnounce", "server", "The server restarts i
 
 
 -- Server
--- Die folgenden Events gehören in eine server.lua.
 
 -- Admin / Team Chat Notify for a player
 -- TriggerClientEvent("SServcie:SHUDV2:DisplayAdminChatNotify", source, message, name, id, length)
